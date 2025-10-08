@@ -1,7 +1,7 @@
 # Taller-3-ML1
 XGBoost vs. Random Forest Performance
 # Juan David Sánchez y Alejandro Gil
-Al realizar el modelo de PCA mejoro ej resultado comparado con el knn en el modelo no binario, mientras que en el modelo binario fue lo contrario.
+Al realizar el modelo de PCA mejoro el resultado comparado con el knn en el modelo no binario, mientras que en el modelo binario fue lo contrario.
 
 En la clasificación multiclase, el modelo con PCA obtuvo 57.19% de precisión, ligeramente mejor que el modelo base con 55.94%. Esto sugiere que al hacer la reducción dimensional ayuda en problemas más complejos y con clases desbalanceadas.
 

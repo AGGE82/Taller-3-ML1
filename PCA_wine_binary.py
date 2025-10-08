@@ -1,12 +1,16 @@
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+from sklearn.decomposition import PCA
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.pipeline import Pipeline
 from sklearn.metrics import accuracy_score, classification_report
 from xgboost import XGBClassifier
 from xgboost import plot_importance
 import matplotlib.pyplot as plt
 import seaborn as sns
+import time
 
 # Load wine quality dataset
 url = "https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv"
